@@ -1,0 +1,170 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: #4CAF50; /* Color de selección */
+    color: white; /* Color de texto de selección */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMac
+SystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos del header */
+header {
+    background-color: rgb(106, 19, 19);
+  padding: 15px 0; /* Agregar un padding vertical */
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 90%; /* Limitar el ancho del navbar */
+  margin: 0 auto; /* Centrar el navbar */
+}
+
+.titulo {
+    box-shadow: 0px 0px 10px 0px black; 
+  padding: 5px 10px; /* Agregar padding a la caja del título */
+  border-radius: 5px; /* Agregar bordes redondeados */
+}
+
+.titulo h1 {
+  font-size: 30px; /* Aumentar el tamaño del texto del título */
+  margin: 0; /* Eliminar margen por defecto del h1 */
+}
+
+.contenedor-lista ul {
+    display: flex;
+    list-style: none;
+    gap: 25px; 
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-lista a {
+    color: #ffffff;
+    font-size: 20px;
+  text-decoration: none; /* Quitar la decoración por defecto de los enlaces */
+  transition: text-decoration 0.3s ease; /* Agregar una transición suave */
+}
+
+.contenedor-lista a:hover {
+    text-decoration: underline; 
+}
+
+.IDX-txt-color{
+    color: rgb(84, 84, 231);
+}
+
+/* main de la pagina web */
+
+main{
+    max-width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+    border: 1px solid #ab00fa ;
+}
+
+.post1,
+.post2,
+.post3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-post1{
+    font-size: 25px;
+}
+
+.link_idx_pag_oficial{
+    color: rgb(32, 118, 125);
+}
+
+.link_idx_pag_oficial:hover{
+    text-decoration: underline;
+}
+
+.lista-de-caracteristicas{
+    background:  linear-gradient(45deg, #ab00fa44, rgba(79, 136, 223, 0.24),rgba(194, 24, 216, 0.288));
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-beneficios{
+    background:  linear-gradient(45deg, #ab00fa44, rgba(79, 136, 223, 0.24),rgba(194, 24, 216, 0.288));
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-de-caracteristicas ul,
+.lista-beneficios ul{
+    padding: 20px;
+}
+
+.lista-de-caracteristicas li,
+.lista-beneficios li{
+    margin-bottom: 10px;
+}
+
+.lista-de-caracteristicas li::before,
+.lista-beneficios li::before {
+    content: "--";
+    color: #00fff2;
+    font-weight: bold;
+}
+
+/* footer del blog */
+footer{
+    background: linear-gradient(140deg, rgb(92, 64, 192),rgb(31, 94, 167));
+    padding: 15px 0;
+    text-align: center;
+}
+
+.titulo-footer{
+    font-size: 23px;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+.copy{
+    font-size: 18px;
+}
+
+.logo{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    filter: brightness(1.2);
+}
