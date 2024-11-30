@@ -1,8 +1,37 @@
-# React + Vite
+# 🚀 **React + Vite Blog IDX**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**¡Bienvenido a mi Blog IDX!**  
+Este template proporciona una configuración mínima para poner en marcha **React** con **Vite**. Incluye soporte para **Hot Module Replacement (HMR)** y algunas reglas básicas de **ESLint** para un desarrollo eficiente.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 **Plugins Oficiales**  
+
+Este proyecto utiliza dos **plugins** oficiales para mejorar la experiencia de desarrollo:
+
+### 1️⃣ [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- Utiliza **Babel** para realizar **Fast Refresh**, lo que mejora la experiencia de recarga rápida de la aplicación durante el desarrollo.
+
+### 2️⃣ [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
+- Utiliza **SWC**, una alternativa más rápida a Babel para realizar el **Fast Refresh**.
+
+---
+
+## ⚡ **Características**  
+
+- **Vite**: Carga ultrarrápida de módulos.
+- **React**: Componente basado en interfaz de usuario reactiva.
+- **Fast Refresh**: Soporte instantáneo de actualización en caliente.
+- **ESLint**: Reglas básicas para mantener el código limpio y ordenado.
+
+---
+
+## 📂 **Estructura del Proyecto**  
+
+```plaintext
+/idx-blog
+ ├── /src
+ ├── /public
+ ├── /node_modules
+ ├── /vite.config.ts
+ └── /package.json

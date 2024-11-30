@@ -1,0 +1,81 @@
+.contenedor-posts{
+    padding: 10px;
+}
+
+.contenedor-contenido-post{
+    padding: 5px;
+}
+
+.subtitulo-post1-contacto{
+    font-size: 25px;
+    text-align: center;
+}
+
+.post1-contacto p{
+    text-align: center;
+}
+
+.mensaje_comunidad{
+    font-size: 25px;
+    text-align: center;
+}
+
+.post2-contacto-images{
+    padding: 15px;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Esto divide el espacio en 2 columnas iguales */
+    grid-gap: 15px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.img-left{
+    justify-self: start;
+}
+
+.img-right{
+    justify-self: start;
+    margin-top: 2%;
+}
+
+.img-left img,
+.img-right img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+
+.button-entry-pag-oficial {
+    padding: 12px 24px;
+    background: linear-gradient(140deg, #5f97cf, #cd5edb);  /* Fondo inicial */
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 30px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background 1s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el fondo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    outline: none;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1px; /* Espaciado de letras */
+}
+
+/* Aplica hover a la vez para el div y el botón */
+.button-entry-pag-oficial:hover {
+    background: linear-gradient(140deg, #6a11cb, #2575fc); /* Fondo cambia al hacer hover */
+    transform: translateY(-3px); /* Efecto de desplazamiento al pasar el cursor */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* Sombra más intensa al hacer hover */
+}
+
+/* Estilo adicional para cuando se hace focus en el botón */
+.button-entry-pag-oficial:focus {
+    outline: none;
+}
