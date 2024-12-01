@@ -1,0 +1,17 @@
+.contenedor-posts-about{
+    padding: 10px;
+}
+
+.subtitulo-post1-about{
+    font-size: 25px;
+    text-align: center;
+}
+
+.post1-about{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post1-about p{
+    font-size: 18px;
+}
