@@ -31,7 +31,30 @@ Este proyecto utiliza dos **plugins** oficiales para mejorar la experiencia de d
 ```plaintext
 /idx-blog
  ├── /src
+        |-- assets
+            |--react.svg
+        |-- /components
+            |-- footer.tsx
+            |-- header.tsx
+        |-- /images
+            |-- code_project_idx.png
+            |-- interface_project_idx.png
+            |-- start_project_idx.png
+        |-- /layout
+            |-- main.jsx
+        |-- /pages
+            |-- about-section.tsx
+            |-- App.tsx
+            |-- Contacto-section.tsx
+        |-- /router
+            |-- router.jsx
+        |-- index-about-section.css
+        |-- index-contacto-section.css
+        |-- index.css
  ├── /public
+        |-- /logo.svg
+        |-- /vite.svg
+ |-- index.html
  ├── /node_modules
  ├── /vite.config.ts
  └── /package.json
