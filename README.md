@@ -28,6 +28,7 @@ Este proyecto utiliza dos **plugins** oficiales para mejorar la experiencia de d
 
 ## 📂 **Estructura del Proyecto**  
 
+```plaintext
 /idx-blog
  ├── /src
  │    ├── /assets
