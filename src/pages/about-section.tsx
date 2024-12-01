@@ -24,9 +24,9 @@ function About() {
                             <div className="post3-about">
                                 <div className="grid-contenedor">
                                     <section className="images-about">
-                                        <img src="/src/images/start_project_idx.png" alt="" />
-                                        <img src="/src/images/interface_project_idx.png" alt="" />
-                                        <img src="/src/images/code_project_idx.png" alt="" />
+                                        <img src="../src/images/start_project_idx.png" alt="" />
+                                        <img src="../src/images/interface_project_idx.png" alt="" />
+                                        <img src="../src/images/code_project_idx.png" alt="" />
                                     </section>
                                     <section className="txt-about">
                                         <p>Project IDX es una plataforma innovadora diseñada para revolucionar el desarrollo de aplicaciones web y contenido digital. Su enfoque principal es proporcionar a los desarrolladores una experiencia de codificación eficiente y colaborativa, con un conjunto de herramientas poderosas que facilitan cada etapa del proceso, desde la creación hasta la implementación. Al ser un editor de código abierto, Project IDX fomenta la participación activa de la comunidad, permitiendo a los usuarios personalizar y adaptar la plataforma a sus necesidades específicas.</p>
