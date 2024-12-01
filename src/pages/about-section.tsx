@@ -13,14 +13,18 @@ function About() {
                                 </section>
                                 <p>Project IDX es un editor de código abierto que permite a los desarrolladores crear contenido de alta calidad y alta velocidad. Construido para simplificar el proceso de creación y distribución de contenido, Project IDX te permite crear, editar, y publicar contenido en la web de manera rápida y fácil.</p>
                             </div>
+                            
                             {/* segundo sector */}
+                            
                             <div className="post2-about">
                                 <section className="subtitulo-post2-about">
                                     <h2>Project IDX: Una Herramienta para el Desarrollo Web</h2>
                                 </section>
                                 <p>Project IDX se basa en la inteligencia artificial (IA) para proporcionar un entorno de desarrollo integrado (IDE) en la nube que simplifica el proceso de creación y distribución de contenido. Con esta plataforma, los desarrolladores pueden editar, probar y publicar contenido en la web de manera rápida y fácil, lo que les permite optimizar su tiempo de trabajo y reducir la fricción en el proceso de creación y distribución de contenido.</p>
                             </div>
+
                             {/* tercer sector */}
+                            
                             <div className="post3-about">
                                 <div className="grid-contenedor">
                                     <section className="images-about">
