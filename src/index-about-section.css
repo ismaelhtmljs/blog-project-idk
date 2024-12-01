@@ -15,3 +15,143 @@
 .post1-about p{
     font-size: 18px;
 }
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.images-about img{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.txt-about{
+    text-align: justify;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 2px rgba(65, 142, 187, 0.6),
+                0 0 5px 2px rgba(201, 40, 193, 0.6);
+    background: linear-gradient(45deg, #3e1a47, #2d0a3e, #1f0b1e, #000000);
+    margin-bottom: 20px;
+}
+
+.txt-about p{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 320px){
+    /* Se adaptan los elementos para dispositivos móviles */
+    .grid-contenedor{
+        grid-template-columns: 1fr;
+    }
+
+    .txt-about{
+        padding: 5px;
+        border-radius: 5px;
+        text-align: start;
+    }
+
+    .txt-about p{
+        font-size: 16px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 424px){
+    /* Se adaptan los elementos para dispositivos móviles con ancho de pantalla entre 360px y 424px */
+    .grid-contenedor{
+        grid-template-columns: 1fr;
+    }
+
+    .txt-about p{
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .subtitulo-post2-about h2{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 480px){
+    /* Se adaptan los elementos para dispositivos móviles con ancho de pantalla entre 360px y 424px */
+    .grid-contenedor{
+        grid-template-columns: 1fr;
+    }
+
+    .txt-about p{
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .subtitulo-post2-about h2{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* Se adaptan los elementos para dispositivos móviles con ancho de pantalla entre 360px y 424px */
+    .grid-contenedor{
+        grid-template-columns: 1fr;
+    }
+
+    .txt-about p{
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .subtitulo-post2-about h2{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    .grid-contenedor{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .images-about{
+        display: grid;
+    }
+
+    .images-about img{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+}

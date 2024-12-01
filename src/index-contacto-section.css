@@ -79,3 +79,54 @@
 .button-entry-pag-oficial:focus {
     outline: none;
 }
+
+/* media queris del blog */
+
+@media screen and (max-width: 320px){
+    .mensaje_comunidad h2{
+        font-size: 18px;
+    }
+    .img img{
+        width: 100%;
+    }
+
+    .img{
+        grid-template-columns: 1fr;
+    }
+
+    .img-left img,
+    .img-right img{
+        width: 100%;
+    }
+    .button-entry-pag-oficial{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 424px){
+    .img img{
+        width: 100%;
+    }
+
+    .img{
+        grid-template-columns: 1fr;
+    }
+
+    .mensaje_comunidad h2{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 480px){
+    .img img{
+        width: 100%;
+    }
+
+    .img{
+        grid-template-columns: 1fr;
+    }
+
+    .mensaje_comunidad h2{
+        font-size: 25px;
+    }
+}
