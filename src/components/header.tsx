@@ -11,8 +11,8 @@ function Header() {
                 <div className="contenedor-lista">
                     <ul>
                         <Link to="/">Home</Link>
-                        <Link to="/contacto/pagina-ofical/project-IDX">Pagina Oficial</Link>
-                        <Link to="/about/project-IDX">About</Link>
+                        <Link to="/pagina-oficial">Pagina Oficial</Link>
+                        <Link to="/about">About</Link>
                     </ul>
                 </div>
             </nav>

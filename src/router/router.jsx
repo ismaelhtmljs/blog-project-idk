@@ -11,8 +11,8 @@ function Index() {
         <Header />
         <Routes>
             <Route path="/" element={<App />} />
-            <Route path="/contacto/pagina-ofical/project-IDX" element={<Contacto/>} />
-            <Route path="/about/project-IDX" element={<About />} />
+            <Route path="/pagina-oficial" element={<Contacto/>} />
+            <Route path="/about" element={<About />} />
         </Routes>
         </>
     );
